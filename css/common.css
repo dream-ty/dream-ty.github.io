@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+body {
+    background-color: #F6F6F6;
+}
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    content: '';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+
+}
+li {
+    list-style: none;
+}
+.space {
+    height: 10px;
+    background-color: #CCCCCC;
+    width: 1px;
+    margin: 10px 11px 0px;
+    /*line-height: 30px;*/
+}
+
+
